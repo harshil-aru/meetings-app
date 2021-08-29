@@ -1,0 +1,30 @@
+.date-picker {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 5%;
+  margin-right: auto;
+}
+.date-picker__selector {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.date-picker__date {
+  flex: 1;
+}
+
+.selector__title {
+  flex: 0.5;
+}
+
+.selector__date-added {
+  flex: 1;
+}
+
+.divider {
+  border-top: 0.1rem solid grey;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 1rem;
+}
